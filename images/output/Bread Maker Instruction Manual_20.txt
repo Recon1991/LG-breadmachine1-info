@@ -1,0 +1,24 @@
+POWER INTERRUPTION RECOVERY
+If the power supply interruption lasts less than 10 minutes, the program will continue as
+
+soon as the power supply is restored. If the interruption lasts more than 15 minutes, the
+program stops and the display returns to its default settings. In this case disconnect the
+appliance from the electrical outlet, allow to cool, empty the pan, remove the ingredients,
+clean and start again
+
+WARNING DISPLAY
+Ifan error occurs, the display may show the following error codes:
+
+IH’: the temperature inside the pan is too high.
+Press the On/Off button (0) for 3 seconds to stop the program.
+Unplug.
+
+Open the lid and allow the appliance to coal for 10-20 minutes
+Restart the program.
+
+BUN
+
+“E:EO": the temperature sensor is disconnected or out of order.
+Take the appliance to an authorized service center to check the operation of the sensor.
+
+Questions? We're here to help! Visit: shopelitegourmet.com for support on this product
