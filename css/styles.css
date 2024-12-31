@@ -1,46 +1,39 @@
 /* Reset and Base Styles */
+@import url("theme_variables.css");
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     line-height: 1.6;
-    color: #716040;
-    background-color: #f9f4ef;
+    color: var(--paragraph-color);
+    background-color: var(--background-color);
 }
 
 header {
-    background: #f9f4ef;
-    color: #020826;
+    background: var(--background-color);
+    color: var(--headline-color);
     padding: 20px 10px;
     text-align: center;
-    box-shadow: 
-      5px 5px 15px #bebebe, 
-      -5px -5px 15px #ffffff;
-    border-radius: 12px;
     margin: 20px;
 }
 
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #020826;
+    color: var(--headline-color);
 }
 
 header p {
     font-size: 1.2em;
     margin-top: 5px;
-    color: #716040;
+    color: var(--paragraph-color);
 }
 
 nav {
-    background: #f9f4ef;
+    background: var(--background-color);
     padding: 20px;
     margin: 20px;
-    border-radius: 12px;
-    border: 3px #020826 solid;
-    box-shadow: 
-      5px 5px 15px #bebebe, 
-      -5px -5px 15px #ffffff;
     text-align: center;
 }
 
@@ -57,31 +50,30 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #fffffe;
+    color: var(--button-background);
     padding: 10px 15px;
-    border-radius: 3px;
-    background: #8c7851;
-    /*box-shadow: 
-      inset 5px 5px 10px #715e40, 
-      inset -5px -5px 10px #a69362;*/
-    transition: all 0.3s ease;
+    border: 3px solid var(--button-background);
+    border-radius: 6px;
+    box-shadow: 
+      0px 4px 4px #00000030, 
+      0px 12px 12px #00000015;
+    background: var(--background-color);
+    transition: background 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
-    box-shadow: 
-      0px 5px 15px #252525;
-    background: #716040;
-    color: #fffffe;
+    background: var(--button-hover-background);
+    color: var(--button-text);
+    transform: translateY(-8px);
+    transition: var(--transition);
 }
 
 footer {
     text-align: center;
     padding: 20px 10px;
-    background: #f9f4ef;
-    color: #716040;
+    background: var(--background-color);
+    color: var(--paragraph-color);
     margin: 20px;
-    border-radius: 12px;
-    box-shadow: 5px 5px 15px #bebebe, -5px -5px 15px #ffffff;
 }
 
 footer p {
