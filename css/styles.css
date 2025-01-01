@@ -1,5 +1,5 @@
 /* Reset and Base Styles */
-@import url("theme_variables.css");
+@import url("\css\theme_variables.css");
 
 body {
     font-family: Arial, sans-serif;
@@ -10,12 +10,23 @@ body {
     background-color: var(--background-color);
 }
 
+.call-to-action {
+    text-align: center;
+    background: var(--background-color);
+    color: var(--gray70);
+    padding: 5px 10px;
+    margin: 0;
+    font-size: var(--p);
+    border-bottom: 2px solid var(--button-background);
+}
+
 header {
     background: var(--background-color);
     color: var(--headline-color);
-    padding: 20px 10px;
-    text-align: center;
-    margin: 20px;
+    padding: 20px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
@@ -24,48 +35,34 @@ header h1 {
     color: var(--headline-color);
 }
 
-header p {
-    font-size: 1.2em;
-    margin-top: 5px;
-    color: var(--paragraph-color);
-}
-
-nav {
-    background: var(--background-color);
-    padding: 20px;
-    margin: 20px;
-    text-align: center;
-}
-
 nav ul {
     list-style: none;
     margin: 0;
     padding: 0;
+    display: flex;
+    gap: 15px;
 }
 
 nav ul li {
-    display: inline;
-    margin: 0 15px;
+    margin: 0;
 }
 
 nav ul li a {
     text-decoration: none;
-    color: var(--button-background);
+    color: var(--button-text);
     padding: 10px 15px;
-    border: 3px solid var(--button-background);
-    border-radius: 6px;
-    box-shadow: 
-      0px 4px 4px #00000030, 
-      0px 12px 12px #00000015;
-    background: var(--background-color);
+    border-radius: 4px;
+    background: var(--button-background);
     transition: background 0.3s ease, color 0.3s ease;
 }
 
 nav ul li a:hover {
     background: var(--button-hover-background);
     color: var(--button-text);
-    transform: translateY(-8px);
-    transition: var(--transition);
+}
+
+p {
+    text-align: center;
 }
 
 footer {
