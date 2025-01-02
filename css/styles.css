@@ -62,7 +62,7 @@ nav ul li a {
     text-decoration: none;
     color: var(--button-text);
     padding: 10px 15px;
-    border-radius: 4px;
+    border-radius: 6px;
     background: var(--button-background);
     transition: background var(--transition), color var(--transition);
 }
@@ -79,6 +79,94 @@ p {
     text-align: center;
 }
 
+main {
+    padding-bottom: 80px;
+}
+
+.content-container {
+    max-width: 1200px; /* Define the maximum width for the container */
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 0 20px; /* Add horizontal padding for smaller screens */
+}
+
+.shelf-grid {
+    display: grid;
+    gap: 35px; /* Space between shelves */
+    margin: 20px;
+}
+
+.shelf {
+    display: flex;
+    justify-content: space-evenly; /* Distribute cards evenly on the shelf */
+    align-items: center;
+    height: 220px;
+    background: url('/img/arches.png') repeat; /* Add wooden texture */
+    background-color: var(--shelf-background);
+    background-size: repeat;
+    border-radius: 8px;
+    box-shadow: 
+      0 4px 12px rgba(0, 0, 0, 0.4),
+      inset 0 -10px 10px rgba(0, 0, 0, 0.4)
+      ;
+    position: relative;
+}
+
+.shelf::before {
+    content: '';
+    position: absolute;
+    bottom: -11px;
+    width: 101%;
+    border-radius: 3px;
+    border:0px solid #00000060;
+    background: url('/img/black-felt.png') repeat; /* Add wooden texture */
+    background-color: var(--shelf-gradient-color3);
+    box-shadow: 
+      0 2px 8px rgba(0, 0, 0, 0.4)
+      ;
+    height: 12px; /* Height of the front rectangle */
+    z-index: 3; /* Above the sloped part but below cards */
+}
+
+.shelf::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 101%;
+    height: 25px;
+    background: url('/img/black-linen.png') repeat; /* Add wooden texture */
+    background-color: var(--shelf-color);
+    box-shadow: 
+      0 2px 4px rgba(0, 0, 0, 0.2),
+      inset 0px 4px 8px rgba(141, 109, 51, 0.5),
+      inset 0px -4px 6px rgba(94, 73, 35, 0.5);
+    border-radius: 2px;
+    clip-path: polygon(0.5% 0, 99.5% 0%, 100% 100%, 0 100%);
+    z-index: 2; /* Above the shelf but below the cards */
+}
+
+.recipe-card {
+    width: 150px;
+    height: 180px;
+    background-color: var(--background-color);
+    border: 1px solid var(--gray70);
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    font-family: var(--ff);
+    transition: transform 0.2s ease-in-out;
+    z-index: 4;
+}
+
+.recipe-card:hover {
+    transform: translateY(-8px);
+    transition: transform 0.2s ease-in-out;
+}
+
 footer {
     position: fixed;
     bottom: 0;
@@ -87,6 +175,8 @@ footer {
     padding: 20px 10px;
     background: var(--background-color);
     color: var(--paragraph-color);
+    z-index: 10; /* Ensures footer is above other elements */
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for better layering */
 }
 
 footer p {

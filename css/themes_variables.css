@@ -7,6 +7,11 @@
     --button-background: #8c7851;
     --button-text: #fffffe;
     --button-hover-background: #716040;
+    --shelf-background: #eaddcf;
+    --shelf-color: #8d764b;
+    --shelf-gradient-color1: #716040;
+    --shelf-gradient-color2: #55462a;
+    --shelf-gradient-color3: #1f1709;
 
     --ff: "Montserrat", sans-serif;
     --ff-fredoka: "Fredoka", sans-serif;
