@@ -1,8 +1,8 @@
 /* Reset and Base Styles */
-@import url("\css\theme_variables.css");
+@import url("/css/themes_variables.css");
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: var(--ff);
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -13,33 +13,44 @@ body {
 .call-to-action {
     text-align: center;
     background: var(--background-color);
-    color: var(--gray70);
-    padding: 5px 10px;
+    color: var(--gray50);
+    padding: 5px 5px;
     margin: 0;
-    font-size: var(--p);
-    border-bottom: 2px solid var(--button-background);
+    font: var(--cta);
+}
+
+.divider {
+    border: none;
+    height: 1px;
+    background-color: var(--gray70);
+    margin: 0px 10px;
 }
 
 header {
     background: var(--background-color);
     color: var(--headline-color);
-    padding: 20px 25px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    padding: 5px 25px;
+    text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font: var(--h1);
+    color: var(--headline-color);
+}
+
+header h2 {
+    margin: 0;
+    font: var(--h2);
     color: var(--headline-color);
 }
 
 nav ul {
     list-style: none;
-    margin: 0;
+    margin: 25px 0 0 0;
     padding: 0;
     display: flex;
+    justify-content: center;
     gap: 15px;
 }
 
@@ -53,12 +64,15 @@ nav ul li a {
     padding: 10px 15px;
     border-radius: 4px;
     background: var(--button-background);
-    transition: background 0.3s ease, color 0.3s ease;
+    transition: background var(--transition), color var(--transition);
 }
 
 nav ul li a:hover {
     background: var(--button-hover-background);
     color: var(--button-text);
+    box-shadow: 
+      0px 2px 2px #00000030, 
+      0px 8px 8px #00000015;
 }
 
 p {
@@ -66,11 +80,13 @@ p {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     text-align: center;
     padding: 20px 10px;
     background: var(--background-color);
     color: var(--paragraph-color);
-    margin: 20px;
 }
 
 footer p {

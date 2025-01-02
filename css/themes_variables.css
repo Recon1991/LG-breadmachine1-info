@@ -1,5 +1,5 @@
 /* Theme Variables */
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@400;600&family=Montserrat:wght@400;700&display=swap");
 :root {
     --background-color: #f9f4ef;
     --headline-color: #020826;
@@ -9,14 +9,18 @@
     --button-hover-background: #716040;
 
     --ff: "Montserrat", sans-serif;
+    --ff-fredoka: "Fredoka", sans-serif;
 
-    --h1: bold 1.125rem/1.4em var(--ff);
-    --h2: bold 1rem/1.4em var(--ff);
+    --h1: bold 2.8rem/1.4em var(--ff-fredoka);
+    --h2: bold 1.2rem/1.4em var(--ff);
     --p: 1rem/1.4em var(--ff);
     --p2: .875rem/1.4em var(--ff);
+    --cta: .875rem/1.4em var(--ff);
 
     --gray100: hsl(0,0%,100%);
     --gray70: hsl(0,0%,70%);
+    --gray50: hsl(0,0%,50%);
+    --gray30: hsl(0,0%,30%);
     --gray0: hsl(0,0%,0%);
 
     --transition: 0.15s ease-in-out;
