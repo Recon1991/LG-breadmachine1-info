@@ -26,6 +26,13 @@ body {
     margin: 0px 10px;
 }
 
+.divider-dashed {
+    border: none;
+    border-top: dashed 1px var(--gray70);
+    height: 4px;
+    margin: 0px 10px;
+}
+
 header {
     background: var(--background-color);
     color: var(--headline-color);
@@ -48,7 +55,7 @@ header h2 {
 nav ul {
     list-style: none;
     margin: 25px 0 0 0;
-    padding: 0;
+    padding: 0 0 25px 0;
     display: flex;
     justify-content: center;
     gap: 15px;
@@ -86,7 +93,14 @@ main {
 .content-container {
     max-width: 1200px; /* Define the maximum width for the container */
     margin: 0 auto; /* Center the container horizontally */
-    padding: 0 20px; /* Add horizontal padding for smaller screens */
+    padding: 20px 20px; /* Add horizontal padding for smaller screens */
+}
+
+.content-container h2{
+    text-align: center;
+    margin: 0;
+    font: var(--h2);
+    color: var(--headline-color);
 }
 
 .shelf-grid {
@@ -99,8 +113,8 @@ main {
     display: flex;
     justify-content: space-evenly; /* Distribute cards evenly on the shelf */
     align-items: center;
-    height: 220px;
-    background: url('/img/arches.png') repeat; /* Add wooden texture */
+    height: 240px;
+    background: url('/img/elegant-grid.png') repeat; /* Add wooden texture */
     background-color: var(--shelf-background);
     background-size: repeat;
     border-radius: 8px;
@@ -114,11 +128,11 @@ main {
 .shelf::before {
     content: '';
     position: absolute;
-    bottom: -11px;
+    bottom: -10px;
     width: 101%;
     border-radius: 3px;
     border:0px solid #00000060;
-    background: url('/img/black-felt.png') repeat; /* Add wooden texture */
+    /*background: url('/img/black-felt.png') repeat; */
     background-color: var(--shelf-gradient-color3);
     box-shadow: 
       0 2px 8px rgba(0, 0, 0, 0.4)
@@ -133,7 +147,7 @@ main {
     bottom: 0;
     width: 101%;
     height: 25px;
-    background: url('/img/black-linen.png') repeat; /* Add wooden texture */
+    background: url('/img/black-linen.png') repeat;
     background-color: var(--shelf-color);
     box-shadow: 
       0 2px 4px rgba(0, 0, 0, 0.2),
@@ -172,8 +186,9 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
-    padding: 20px 10px;
+    padding: 10px 10px;
     background: var(--background-color);
+    background-image: url(/img/arches.png);
     color: var(--paragraph-color);
     z-index: 10; /* Ensures footer is above other elements */
     box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1); /* Optional: adds a subtle shadow for better layering */
