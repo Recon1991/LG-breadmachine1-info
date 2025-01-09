@@ -1,0 +1,373 @@
+{
+  "recipes": [
+    {
+      "name": "Basic Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "2:55",
+          "water": "14 tbsp",
+          "oil": "1 ½ tbsp",
+          "salt": "½ tsp",
+          "sugar": "1 tbsp",
+          "white flour": "2 1/3 cup",
+          "instant yeast": "1 tsp"
+        },
+        "1.5 Lb": {
+          "time": "3:00",
+          "water": "1 cup, 1 ½ tbsp",
+          "oil": "2 ½ tbsp",
+          "salt": "1 tsp",
+          "sugar": "2 tbsp",
+          "white flour": "3 cup",
+          "instant yeast": "1 tsp"
+        },
+        "2 Lb": {
+          "time": "3:05",
+          "water": "1 cup, 5 ½ tbsp",
+          "oil": "3 tbsp",
+          "salt": "1 ½ tsp",
+          "sugar": "2 tbsp",
+          "white flour": "3 ½ cup",
+          "instant yeast": "1 ¼ tsp"
+        }
+      }
+    },
+    {
+      "name": "Quick Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "1:55",
+          "water": "9 ½ tbsp",
+          "oil": "2 tbsp",
+          "salt": "2/3 tsp",
+          "sugar": "1 tbsp",
+          "white flour": "2 cup",
+          "instant yeast": "1 ½ tsp"
+        },
+        "1.5 Lb": {
+          "time": "2:00",
+          "water": "13 tsp",
+          "oil": "2 ½ tbsp",
+          "salt": "¾ tsp",
+          "sugar": "2 tbsp",
+          "white flour": "2 ½ cup",
+          "instant yeast": "1 ½ tsp"
+        },
+        "2 Lb": {
+          "time": "2:05",
+          "water": "1 cup",
+          "oil": "3 tbsp",
+          "salt": "1 tsp",
+          "sugar": "3 tbsp",
+          "white flour": "3 cup",
+          "instant yeast": "2 ½ tsp"
+        }
+      }
+    },
+    {
+      "name": "Sweet Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "3:40",
+          "water": "8 tbsp",
+          "oil": "1 ½ tbsp",
+          "skimmed milk": "¼ cup",
+          "egg": "1 whole egg",
+          "salt": "½ tsp",
+          "sugar": "2 tbsp",
+          "white flour": "2 cup",
+          "instant yeast": "½ tsp"
+        },
+        "1.5 Lb": {
+          "time": "3:45",
+          "water": "11 tbsp",
+          "oil": "2 tbsp",
+          "skimmed milk": "1/3 cup",
+          "egg": "1 whole egg",
+          "salt": "½ tsp",
+          "sugar": "3 tbsp",
+          "white flour": "2 ¾ cup",
+          "instant yeast": "½ tsp"
+        },
+        "2 Lb": {
+          "time": "3:50",
+          "water": "13 ½ tbsp",
+          "oil": "2 ½ tbsp",
+          "skimmed milk": "½ cup",
+          "egg": "1 whole egg",
+          "salt": "½ tsp",
+          "sugar": "4 tbsp",
+          "white flour": "3 ½ cup",
+          "instant yeast": "½ tsp"
+        }
+      }
+    },
+    {
+      "name": "French Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "3:55",
+          "water": "12 tbsp",
+          "oil": "1 tbsp",
+          "salt": "2 tsp",
+          "sugar": "1 ½ tbsp",
+          "white flour": "2 ¼ cup",
+          "instant yeast": "2/3 tsp"
+        },
+        "1.5 Lb": {
+          "time": "4:00",
+          "water": "1 cup, 1 ½ tbsp",
+          "oil": "1 ½ tbsp",
+          "salt": "2 ½ tsp",
+          "sugar": "1 ½ tbsp",
+          "white flour": "2 ¾ cup",
+          "instant yeast": "1 tsp"
+        },
+        "2 Lb": {
+          "time": "4:05",
+          "water": "1 cup, 5 ½ tbsp",
+          "oil": "2 tbsp",
+          "salt": "3 tsp",
+          "sugar": "2 tbsp",
+          "white flour": "3 ½ cup",
+          "instant yeast": "1 ¼ tsp"
+        }
+      }
+    },
+    {
+      "name": "Whole Wheat Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "3:55",
+          "water": "12 tbsp",
+          "oil": "2 tbsp",
+          "salt": "2/3 tsp",
+          "sugar": "1 ¾ tbsp",
+          "white flour": "1 cup",
+          "instant yeast": "2/3 tsp",
+          "whole wheat flour": "1 cup"
+        },
+        "1.5 Lb": {
+          "time": "4:00",
+          "water": "15 tbsp",
+          "oil": "2 ½ tbsp",
+          "salt": "¾ tsp",
+          "sugar": "2 tbsp",
+          "white flour": "1 ½ cup",
+          "instant yeast": "1 tsp",
+          "whole wheat flour": "1 ½ cup"
+        },
+        "2 Lb": {
+          "time": "4:05",
+          "water": "1 cup, 2 tbsp",
+          "oil": "3 tbsp",
+          "salt": "1 tsp",
+          "sugar": "3 tbsp",
+          "white flour": "2 cup",
+          "instant yeast": "1 ¼ tsp",
+          "whole wheat flour": "2 cup"
+        }
+      }
+    },
+    {
+      "name": "Rye Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "3:25",
+          "water": "12 tbsp",
+          "oil": "2 tbsp",
+          "salt": "2/3 tsp",
+          "brown sugar": "1 ¾ tbsp",
+          "white flour": "1 cup",
+          "instant yeast": "2/3 tsp",
+          "rye flour": "1 cup"
+        },
+        "1.5 Lb": {
+          "time": "3:30",
+          "water": "15 tbsp",
+          "oil": "2 ½ tbsp",
+          "salt": "¾ tsp",
+          "brown sugar": "2 tbsp",
+          "white flour": "1 ½ cup",
+          "instant yeast": "1 tsp",
+          "rye flour": "1 ½ cup"
+        },
+        "2 Lb": {
+          "time": "3:35",
+          "water": "1 cup, 2 tbsp",
+          "oil": "3 tbsp",
+          "salt": "1 tsp",
+          "brown sugar": "3 tbsp",
+          "white flour": "2 cup",
+          "instant yeast": "1 ¼ tsp",
+          "rye flour": "2 cup"
+        }
+      }
+    },
+    {
+      "name": "Gluten-Free Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "2:55",
+          "water": "9 ½ tbsp",
+          "oil": "2 tbsp",
+          "salt": "2/3 tsp",
+          "sugar": "2 tbsp",
+          "instant yeast": "1 ½ tsp",
+          "maize flour": "¼ cup",
+          "gluten-free flour": "1 ¾ cup"
+        },
+        "1.5 Lb": {
+          "time": "3:00",
+          "water": "13 tbsp",
+          "oil": "2 ½ tbsp",
+          "salt": "¾ tsp",
+          "sugar": "2 ½ tbsp",
+          "instant yeast": "1 ½ tsp",
+          "maize flour": "½ cup",
+          "gluten-free flour": "2 cup"
+        },
+        "2 Lb": {
+          "time": "3:05",
+          "water": "15 ½ tbsp",
+          "oil": "3 tbsp",
+          "salt": "1 tsp",
+          "sugar": "3 tbsp",
+          "instant yeast": "1 ¼ tsp",
+          "maize flour": "¾ cup",
+          "gluten-free flour": "2 ¼ cup"
+        }
+      }
+    },
+    {
+      "name": "Rice Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "2:40",
+          "water": "10 tbsp",
+          "oil": "2 tbsp",
+          "egg": "1 whole egg",
+          "salt": "2/3 tsp",
+          "sugar": "1 tbsp",
+          "instant yeast": "2/3 tsp",
+          "high-gluten flour": "2 cup",
+          "cooked rice": "¼ cup"
+        },
+        "1.5 Lb": {
+          "time": "2:45",
+          "water": "13 tbsp",
+          "oil": "2 ½ tbsp",
+          "egg": "1 whole egg",
+          "salt": "¾ tsp",
+          "sugar": "2 tbsp",
+          "instant yeast": "1 tsp",
+          "high-gluten flour": "2 ½ cup",
+          "cooked rice": "½ cup"
+        },
+        "2 Lb": {
+          "time": "2:50",
+          "water": "1 cup",
+          "oil": "3 tbsp",
+          "egg": "1 whole egg",
+          "salt": "1 tsp",
+          "sugar": "2 tbsp",
+          "instant yeast": "1 ¼ tsp",
+          "high-gluten flour": "3 cup",
+          "cooked rice": "¾ cup"
+        }
+      }
+    },
+    {
+      "name": "Sandwich Bread",
+      "weights": {
+        "1 Lb": {
+          "time": "4:55",
+          "water": "14 tbsp",
+          "oil": "½ tsp",
+          "salt": "2/3 tsp",
+          "sugar": "2/3 tsp",
+          "white flour": "2 cup",
+          "instant yeast": "2/3 tsp"
+        },
+        "1.5 Lb": {
+          "time": "5:00",
+          "water": "1 cup, ¾ tbsp",
+          "oil": "¾ tsp",
+          "salt": "¾ tsp",
+          "sugar": "¾ tsp",
+          "white flour": "2 ½ cup",
+          "instant yeast": "1 tsp"
+        },
+        "2 Lb": {
+          "time": "5:05",
+          "water": "1 cup, 4 tbsp",
+          "oil": "1 1/3 tsp",
+          "salt": "1 tsp",
+          "sugar": "1 tbsp",
+          "white flour": "3 cup",
+          "instant yeast": "1 ¼ tsp"
+        }
+      }
+    },
+    {
+      "name": "100% Whole Wheat Dough",
+      "weights": {},
+      "time": "3:10",
+      "water": "1 cup, 9 ½ tsp",
+      "oil": "2 tbsp",
+      "salt": "1 ½ tsp",
+      "sugar": "2 tbsp",
+      "instant yeast": "1 ½ tsp",
+      "whole wheat flour": "4 ¾ cup"
+    },
+    {
+      "name": "70% Whole Wheat Dough",
+      "weights": {},
+      "time": "3:10",
+      "water": "1 ½ cup",
+      "oil": "2 tbsp",
+      "salt": "1 ½ tsp",
+      "sugar": "2 tsp",
+      "white flour": "1 1/3 cup",
+      "instant yeast": "1 ½ tsp",
+      "whole wheat flour": "3 1/3 cup"
+    },
+    {
+      "name": "Pizza Dough",
+      "weights": {},
+      "time": "0:45",
+      "water": "1 cup",
+      "olive oil": "2 tbsp",
+      "salt": "½ tbsp",
+      "white flour": "2 ½ cup",
+      "instant yeast": "½ tbsp"
+    },
+    {
+      "name": "Leavened Dough",
+      "weights": {},
+      "time": "1:30",
+      "water": "1 cup, 7 ½ tbsp",
+      "olive oil": "2 tbsp",
+      "salt": "1 ½ tsp",
+      "sugar": "2 tbsp",
+      "white flour": "4 ¾ cup",
+      "instant yeast": "1 ¼ tsp"
+    },
+    {
+      "name": "Jam",
+      "weights": {},
+      "time": "1:20",
+      "sugar": "½ cup",
+      "fruit pulp": "1 cup, 5 tbsp",
+      "lemon juice": "½ lemon"
+    },
+    {
+      "name": "Yogurt",
+      "weights": {},
+      "time": "8:00",
+      "sugar": "4 tbsp",
+      "whole milk": "4 cup, 3 ½ tbsp",
+      "natural yogurt": "6 ½ tbsp"
+    }
+  ]
+}

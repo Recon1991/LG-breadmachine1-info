@@ -26,13 +26,6 @@ body {
     margin: 0px 10px;
 }
 
-.divider-dashed {
-    border: none;
-    border-top: dashed var(--gray70);
-    height: 1px;
-    margin: 10px 10px;
-}
-
 header {
     background: var(--background-color);
     color: var(--headline-color);
@@ -92,71 +85,47 @@ main {
 
 .bookshelf-grid {
     display: grid;
-    gap: 20px; /* Space between shelves */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns grid */
+    gap: 20px; /* Space between compartments */
     margin: 20px auto;
-    max-width: 1000px; /* Limits the width of the grid */
-    background: none;
-    padding: 10px;
-    border: 5px solid var(--button-hover-background); /* Optional: outer frame */
+    max-width: 1000px;
+    background: url('/img/wood-grain.jpg') repeat; /* Wood bookshelf background */
+    background-size: cover;
+    padding: 20px;
+    border: 5px solid #8c7851; /* Adds a wooden frame */
     border-radius: 8px;
-}
-
-.shelf {
-    display: flex;
-    justify-content: space-between; /* Distributes compartments evenly */
-    background: url('/img/wood-pattern.png') repeat; /* Wood divider background */
-    background-size: cover;
-    height: 150px; /* Height of each shelf */
-    position: relative;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Optional shadow for panel effect */
-}
-
-.shelf .compartment:not(:last-child) {
-    position: relative;
-    border-right: 5px solid transparent; /* Makes room for wood texture */
-}
-
-.shelf .compartment:not(:last-child)::after {
-    content: '';
-    position: absolute;
-    right: 0;
-    top: 0;
-    width: 5px; /* Width of the divider */
-    height: 100%;
-    background: url('/img/wood-texture.jpg') repeat; /* Wood texture for divider */
-    background-size: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
 
 .compartment {
-    flex: 1;
-    background: linear-gradient(to bottom, #f0ebe1, #dfd3c3); /* Felt-like gradient */
-    margin: 0 10px; /* Space between compartments */
-    border: 2px solid var(--gray70); /* Optional: frame for compartments */
-    border-radius: 8px;
+    background: linear-gradient(to bottom, #f0ebe1, #dfd3c3); /* Felt-like background */
+    border: 2px solid var(--gray70); /* Compartment border */
+    border-radius: 1px;
     padding: 15px;
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
-    transition: transform 0.2s ease-in-out;
+    box-shadow: 
+      inset 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
-.compartment:hover {
-    transform: translateY(-5px); /* Lifts slightly on hover */
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4); /* Enhances shadow */
+.recipe-card {
+    width: 80%; /* Smaller card size relative to the compartment */
+    height: auto;
+    max-height: 80%; /* Avoids overflowing the compartment */
+    background-color: var(--background-color);
+    border: 1px solid var(--gray70);
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
 
-/* Variation: Felt-Only Look */
-.compartment.felt-only {
-    background: linear-gradient(to bottom, #dfd3c3, #c9b9a9);
-    box-shadow: none;
-    border: none;
-}
-
-/* Variation: Padded Borders */
-.compartment.padded {
-    border: 4px solid #f0ebe1; /* Padded border color */
-    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.1);
+.recipe-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 
 footer {
